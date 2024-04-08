@@ -44,6 +44,27 @@ text-shadow: 1px 0 1px #000,
 0 -1px 1px #000;
 }
 
+.button-link {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 320px;
+  background: sandybrown;
+  border-radius: 20px;
+  text-shadow: 1px 0 1px #000, 
+0 1px 1px #000, 
+-1px 0 1px #000, 
+0 -1px 1px #000;
+
+  font-size: 20px;
+  line-height: 1.4;
+
+  color: seashell;
+  text-decoration: revert-layer;
+}
 
 img {
   width: 100%;
@@ -144,10 +165,10 @@ h3 {
   
 
 .hero__box {
-  max-width: 400px;
+  max-width: 350px;
   justify-self: center;
   overflow: hidden;
-  border: 10px solid #fff;
+  border: 10px solid sandybrown;
 
   background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 
@@ -233,4 +254,13 @@ h3 {
     backdrop-filter: hue-rotate(90deg);
     
   }
+  {
+
+  font-size: 14px;
+  line-height: 1.4;
+
+  color: #ffffff;
+  text-decoration: none;
+}
+
 }
